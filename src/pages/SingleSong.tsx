@@ -1,3 +1,7 @@
+/**
+ * Page for individual songs. The browse view lets you link to this page for every song in the db. Features the artist's photo, information about the song, a radar chart that displays some of the song analytics, as well as a related artists section that displays 4 songs that feature the closest top 3 analytics to the displayed song that exist in the db. I had to utilize an rpc function in supabase to achieve the logic as it was pretty complex and PostgREST doesn't seem to like to let you do anything that is more than trivial, so I detailed what the SQL logic is above the data fetch.
+ */
+
 import CustomSpinner from '@/components/CustomSpinner';
 import { ChartRadarDefault } from '@/components/radar-chart';
 import SongCard from '@/components/SongCard';

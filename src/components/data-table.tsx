@@ -1,3 +1,7 @@
+/**
+ * Custom data table component based upon the tutorial on the shadcn/ui component page. The column definitions come from the columns.tsx and playlist-columns.tsx files, so this is reusable for all of the different data tables that exist throughout the site. Pretty large component, though this is pretty in-line with how these need to be constructed.
+ */
+
 "use client"
 
 import * as React from "react"

@@ -1,3 +1,7 @@
+/**
+ * Page for the Browse view. One of the most important sections of the site that features a sidebar component, a filter section component, and a data table component. The sidebar lists all of the available filters and the data table features all of the songs in the database. When filters are selected in the sidebar component, buttons are created in the filter section that enable users to remove the filters and the data table is updated to reflect the current state of the filters. The data table is a customized shadcn/ui component that uses TanStack Table which offers a lot of really great features such as built-in sorting, etc. I was actually almost able to apply the filter logic using some of the built in functionality but managing state for it was a bit of a nightmare, so after spending a few hours aimlessly wandering down that rabbit-hole I decided to just implement the logic myself. All of the filter state lives in here so that it can be shared between the table and the sidebar component.
+ */
+
 import { AppSidebar } from "@/components/app-sidebar";
 import CustomSpinner from "@/components/CustomSpinner";
 import { columns } from "@/components/columns";

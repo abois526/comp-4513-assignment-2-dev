@@ -1,3 +1,7 @@
+/**
+ * Page for listing all of the genres. Very similar to the Artists page. Features a video hero section and then uses genre cards displayed in a grid to link to the Browse page, filtered to feature that particular genre.
+ */
+
 import { supabase } from "@/utils/supabase";
 import { Genre } from "@/types/types";
 import { useEffect, useState } from "react";

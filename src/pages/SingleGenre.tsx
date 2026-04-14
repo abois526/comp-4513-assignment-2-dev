@@ -1,3 +1,7 @@
+/**
+ * Page for providing info about a single genre. Very similar to the single artist component, however this one doesn't feature the information at the top (as it isn't available), only displaying the data table component that has all of the filtered songs belonging to just that genre.
+ */
+
 import CustomSpinner from '@/components/CustomSpinner';
 import { TableData } from '@/types/types';
 import { supabase } from '@/utils/supabase';

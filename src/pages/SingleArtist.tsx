@@ -1,3 +1,7 @@
+/**
+ * Page for providing info about an individual artist. Lists their info, displays their photo, and features a data table component that has all of the filtered songs that belong just to them. 
+ */
+
 import CustomSpinner from '@/components/CustomSpinner';
 import type { SingleArtist, TableData } from '@/types/types';
 import { supabase } from '@/utils/supabase';

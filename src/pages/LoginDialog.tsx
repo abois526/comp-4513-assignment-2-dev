@@ -1,3 +1,7 @@
+/**
+ * Dialog component for my login functionality (or rather, lack thereof as it is just a Potemkin village). This just simulates a login, so when the form gets submitted the isLoggedIn state in the context provider changes from false to true. The open state is just a workaround for making the dialog actually close when the user "logs in". 
+ */
+
 import LoginForm from "@/components/LoginForm";
 import { Button } from "@/components/ui/button";
 import {

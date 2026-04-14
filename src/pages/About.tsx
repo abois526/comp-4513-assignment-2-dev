@@ -1,3 +1,7 @@
+/**
+ * Dialog component that presents info about the app, about me, the data, the site's features, the tech stack, the dev repo, and content attributions for images and videos used on the site.
+ */
+
 import { Button } from "@/components/ui/button";
 import {
   Dialog,

@@ -1,3 +1,7 @@
+/**
+ * Page for listing all of the artists. Features a video hero section and then uses ArtistCard components displayed in a grid to link to the Browse page, filtered to feature that particular artist.
+ */
+
 import { supabase } from "@/utils/supabase";
 import { Artist } from "@/types/types";
 import { useEffect, useState } from "react";

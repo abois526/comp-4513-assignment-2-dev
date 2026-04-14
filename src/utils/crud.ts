@@ -1,3 +1,7 @@
+/**
+ * Keeps all of the CRUD logic consolidated together. addSongToPlaylist is the only one which really lives in different places, but seemed to make sense to modularize it so there wasn't a bunch of this code littered throughout.
+ */
+
 import { supabase } from "@/utils/supabase";
 import { toast } from "sonner";
 

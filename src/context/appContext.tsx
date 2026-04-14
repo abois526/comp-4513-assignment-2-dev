@@ -1,3 +1,11 @@
+/**
+ * Saves state for data that's shared more widely through the app to avoid more messy prop-drilling.
+ * - loggedIn state for multiple pages
+ * - currentPlaylistCount gets set it playlists page but the header badge needs it
+ * - currentPlaylistId gets set in playlists page but multiple different areas need it
+ * - currentPlaylistName name gets set in playlists page but multiple pages need it and it gets used when adding songs to playlists
+ */
+
 import { createContext, useState } from "react"
 
 interface AppContext {

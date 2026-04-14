@@ -1,3 +1,7 @@
+/**
+ * Page for listing current playlists in the db, creating new ones, and selecting a current playlist and managing it. All of the needed playlist info gets pulled from the db and then transformed as necessary so that the data can be used to populate both the playlists data table and the currently selected playlist data table. Both of these tables use the same component, but they have individual column definitions in line with shadcn/ui's guide on designing these components (they don't really come pre-built because many different use cases are unique and it wouldn't make much sense). Different handlers are defined to assist with the functionality of the actions.
+ */
+
 import CustomSpinner from "@/components/CustomSpinner";
 import { DataTable } from "@/components/data-table";
 import { PlaylistInfo, playlistsColumns, playlistSongColumns, PlaylistTableData } from "@/components/playlist-columns";

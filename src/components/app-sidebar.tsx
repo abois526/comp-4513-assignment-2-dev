@@ -1,3 +1,7 @@
+/**
+ * The sidebar for the browse view. useMemo is used for the filtering logic because it seemed like the most appropriate hook to use that would ensure rendering took place at appropriate intervals. Sets were used for unique values due to their definition of only permitting unique entries. Handlers are defined to help with filtering logic. All of the state setters are called here when they get interacted with. One of the larger components, but actually much smaller than the example component which is was built from. 
+ */
+
 import * as React from "react"
 import { ChevronRightIcon } from "lucide-react"
 import { Checkbox } from "@/components/ui/checkbox"

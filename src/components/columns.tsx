@@ -1,3 +1,7 @@
+/**
+ * Column definitions for all of the data tables that display song, artist, genre, year, and action info (the playlist data tables have their own definition).
+ */
+
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"

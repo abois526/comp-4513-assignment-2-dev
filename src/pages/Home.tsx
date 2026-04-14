@@ -1,3 +1,7 @@
+/**
+ * Home page of the site. Features a slightly larger hero video than the other pages and uses iFrame embeds from the Spotify API to feature top songs from different artists in the database. Unfortunately, not all of the songs here are featured in the database. This was more of an experimental feature because I really wanted to try to utilize the Spotify API somehow and I thought it was visually interesting. I used a popular shuffle algorithm to efficiently shuffle the artists, so it is seemingly random on every reload. 
+ */
+
 import HeroVideoLarge from "@/components/HeroVideoLarge";
 import { supabase } from "@/utils/supabase";
 import { Artist } from "@/types/types";

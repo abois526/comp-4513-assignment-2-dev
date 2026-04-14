@@ -1,3 +1,7 @@
+/**
+ * Creates a supabase client. Gets used a lot, so this avoids some redundant code.
+ */
+
 import {createClient} from '@supabase/supabase-js';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;

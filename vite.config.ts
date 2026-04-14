@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  // base: "/comp-4516-assignment-2-prod/",
+  base: "/comp-4513-assignment-2-prod/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

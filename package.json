@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "npm run build && rm -rf dist/.git && cd dist && git init && git branch -M main && git remote add origin https://github.com/abois526/comp-4513-assignment-2-prod.git && git add . && git commit -m 'deploy build' && git push -f origin main",
     "lint": "eslint .",
     "preview": "vite preview"
   },

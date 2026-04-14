@@ -1,5 +1,5 @@
 # Spotify Playlist Maker React SPA
-> A React SPA for a spotify playlist maker
+> A React SPA for a Spotify playlist maker
 
 **Live demo:** https://effervescent-pony-2b8fb3.netlify.app/
 

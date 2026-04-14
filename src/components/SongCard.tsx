@@ -19,7 +19,7 @@ const SongCard = (props: any) => {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Button className="w-full cursor-pointer" onClick={() => navigate(`../browse/${props.artistId}`)}>View Song</Button>
+        <Button className="w-full cursor-pointer" onClick={() => navigate(`../browse/songs/${props.artistId}`)}>View Song</Button>
       </CardFooter>
     </Card>
   );

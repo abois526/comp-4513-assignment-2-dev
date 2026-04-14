@@ -44,3 +44,4 @@ TODO.md
 
 *.tsbuildinfo
 .vite/
+src/**/*.js

@@ -1,5 +1,5 @@
 import CustomSpinner from '@/components/CustomSpinner';
-import { SingleArtist, TableData } from '@/types/types';
+import type { SingleArtist, TableData } from '@/types/types';
 import { supabase } from '@/utils/supabase';
 import { useEffect, useMemo, useState, useContext } from 'react';
 import { useParams, useSearchParams } from 'react-router';
